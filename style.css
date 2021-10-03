@@ -1,0 +1,30 @@
+h1 {
+    background-color: red;
+    text-align: center;
+    color:blue;
+
+}
+
+p {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: 400;
+font-size: 15px;
+}
+
+.puno {
+font-size: 15px;
+color:white;
+background-color: rgb(10, 100, 158)
+
+}
+
+table {
+
+width: 30em;
+height: 10em;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+
+}
