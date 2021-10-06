@@ -1,32 +1,36 @@
 h1 {
-    background-color: red;
-    text-align: center;
+    /**background-color: red;**/
+font-size: unset;
     color:blue;
+   
+}
+
+h4 {
+  font-size: unset;
+ 
 
 }
 
 body{
-font-weight: 23px;
  /**background: url("autogris.jpg");**/
- background-position: left;
+ background-position: center;
 
 }
-
 
 
 p {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-weight: 400;
-font-size: 15px;
-
+/**font-weight: ;**/
+font-size: 1rem;
+font-style: unset;
 }
-
-.puno {
-font-size: 15px;
+.toolbar{
+    background-color:red;
 color:white;
 background-color: rgb(10, 100, 158)
 
 }
+
 
 table {
 
@@ -49,5 +53,39 @@ border-bottom-color: rgb(10, 100, 158);
 border-left-width: 2rem;
 border-left-color: rgb(10, 100, 158);
 background-color: rosybrown;
-font-family: cursive;
+/**font-family: Arial, Helvetica, sans-serif;**/
+font-size: 25px;
+/**font-weight: 70px;**/
 }
+
+.mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: skyblue;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: blue;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
