@@ -7,7 +7,7 @@ font-size: unset;
 
 h4 {
   font-size: unset;
- 
+ background-color: rgba(200, 200, 200, .6);
 
 }
 
@@ -31,6 +31,31 @@ background-color: rgb(10, 100, 158)
 
 }
 
+h4{
+    text-align: center;
+}
+
+.titulodos {text-align: right;
+text-decoration: overline;
+}
+
+.noticia {
+line-height: 20px;
+/*text-transform: capitalize;*/
+/*text-transform: uppercase;*/
+text-transform: lowercase;
+text-align: justify;
+}
+
+#destacada {
+    width: 400px;
+    height: 250px;
+    border: tomato;
+}
+
+h5 {
+    text-align: justify;
+}
 
 table {
 
@@ -44,6 +69,7 @@ padding-top: 1rem;
 padding-right: 1rem;
 padding-bottom: 1rem;
 padding-left: 1rem;
+
 border-top-width: 2rem;
 border-top-color:rgb(10, 100, 158);
 border-right-width: 2rem;
@@ -52,10 +78,12 @@ border-bottom-width: 2rem;
 border-bottom-color: rgb(10, 100, 158);
 border-left-width: 2rem;
 border-left-color: rgb(10, 100, 158);
-background-color: rosybrown;
+background-color: rosybrown; 
 /**font-family: Arial, Helvetica, sans-serif;**/
 font-size: 25px;
 /**font-weight: 70px;**/
+/*border-collapse: collapse;*/
+box-shadow: green;
 }
 
 .mainmenubtn {
@@ -70,6 +98,7 @@ font-size: 25px;
 .mainmenubtn:hover {
     background-color: blue;
     }
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -89,3 +118,27 @@ font-size: 25px;
     display: block;
 }
 
+
+.lista {       /* lower minuscula, uper mayuscula */
+    list-style-type: lower-greek;
+    list-style-position: inside;
+    /*list-style-image: url("autogris.jpg")*/    
+    
+
+}
+
+.google:link { /*hover*/
+  color:red
+}
+
+.google:hover {
+  color: sandybrown;
+}
+
+.google:active {
+  color: blueviolet;
+}
+
+.google:visited {
+    color: green;
+}
